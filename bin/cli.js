@@ -15,13 +15,13 @@ const startScraper = async (argv) => {
                 break;
             case 'products':
             case 'reviews':
-                if (!argv.filetype) {
+                if (argv.filetype === 'none') {
                     console.log(JSON.stringify(data));
                 }
                 break;
             case 'asin':
-                if (!argv.filetype) {
-                    console.log(data.result[0]);
+                if (argv.filetype === 'none') {
+                    console.log(JSON.stringify(data.result[0]));
                 }
                 break;
             default:
@@ -79,9 +79,9 @@ require('yargs')
             describe: 'Number of products to scrape. Maximum 100 products or 300 reviews',
         },
         filetype: {
-            default: 'csv',
-            choices: ['csv', 'json', 'all', ''],
-            describe: "Type of the output file where the data will be saved. 'all' - save data to the 'json' and 'csv' files",
+            default: 'none',
+            choices: ['csv', 'json', 'all', 'none'],
+            describe: "Type of the output file where the data will be saved. 'all' - save data to the 'json' and 'csv' files. 'none' - output to terminal",
         },
         sort: {
             default: false,
