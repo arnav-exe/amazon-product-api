@@ -1,6 +1,6 @@
 {
-    "name": "amazon-buddy",
-    "version": "2.2.44",
+    "name": "@arnav-the-goat/amazon-buddy",
+    "version": "2.2.45",
     "description": "Amazon Scraper. You can scrape products from amazon search result and you can also scrape reviews from a specific product",
     "main": "./lib/index.js",
     "bin": {
@@ -28,16 +28,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/drawrowfly/amazon-scraper.git"
+        "url": "git+https://github.com/arnav-exe/amazon-scraper.git"
     },
     "keywords": [
         "amazon",
         "scraper"
     ],
-    "author": "drawrowfly",
+    "author": "arnav-exe",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/drawrowfly/amazon-scraper/issues"
+        "url": "https://github.com/arnav-exe/amazon-scraper/issues"
     },
-    "homepage": "https://github.com/drawrowfly/amazon-scraper#readme"
+    "homepage": "https://github.com/arnav-exe/amazon-scraper#readme"
 }
