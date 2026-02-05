@@ -28,7 +28,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/arnav-exe/amazon-scraper.git"
+        "url": "git+https://github.com/arnav-exe/amazon-product-api.git"
     },
     "keywords": [
         "amazon",
@@ -37,7 +37,7 @@
     "author": "arnav-exe",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/arnav-exe/amazon-scraper/issues"
+        "url": "https://github.com/arnav-exe/amazon-product-api/issues"
     },
-    "homepage": "https://github.com/arnav-exe/amazon-scraper#readme"
+    "homepage": "https://github.com/arnav-exe/amazon-product-api#readme"
 }
